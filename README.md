@@ -24,7 +24,7 @@ import (
 )
 
 func main() {
-	loc, err := rails_timezone_go.LoadLocation)
+	loc, err := rails_timezone_go.LoadLocation("Eastern Time (US & Canada)")
 	if err != nil {
 		...
 	}
